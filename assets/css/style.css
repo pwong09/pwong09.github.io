@@ -46,10 +46,10 @@
   }
   section {
     display: flex;
+    flex-direction: column;
     margin: auto;
     gap: 10px;
-    justify-content: center;
-
+    align-items: center;
   }
 /* The flip card container*/
   .flip-card {
@@ -141,4 +141,13 @@
   }
   .social {
     padding: 0 5px;
+  }
+
+@media only screen and (min-width: 760px) {
+    section {
+      display: grid;
+      margin: auto;
+      gap: 10px;
+      justify-content: center;
+    }
   }
