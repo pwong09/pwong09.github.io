@@ -14,6 +14,9 @@
     font-family: Helvetica, 'san-serif';
     background-color: var(--main-background);
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   h1 {
     font-size: 55px;
@@ -53,11 +56,16 @@
     margin: 0 auto;
   }
   #projects {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3, 2fr);
-    margin: 50px auto;
+    gap: 20px; */
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: 23px auto;
+    gap: 23px;
   }
 /* The flip card container*/
   .flip-card {
@@ -134,7 +142,7 @@
   
   
   /* footer section */
-  footer {
+footer {
     padding: 15px;
     width: 100%;
     display: flex;
@@ -142,21 +150,22 @@
     justify-content: space-around;
     align-content: space-between;
     align-items: center;
-  }
-  footer > .copyright {
+}
+footer > .copyright {
     font-size: 18px;
-  }
-  footer > .social {
+}
+footer > .social {
     display: flex;
-  }
-  .social {
+}
+.social {
     padding: 0 5px;
-  }
+}
 
-/* @media only screen and (min-width: 600px) {
+/* @media (max-width: 800px) {
     .projects {
-      display: grid;
-      grid-template-columns: repeat(2, 2fr);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
     }
   } */
