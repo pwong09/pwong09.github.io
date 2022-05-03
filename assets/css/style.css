@@ -133,13 +133,17 @@
   }
   #kanshu-back {
     background-color: #3A081E;
+    border: 1px solid #3A081E;
   }
-  #winter {
-    background-color:  #f2f2f2;
-    color: black;
-    transform: rotateY(180deg);
+  #dogcollector-front {
+    background-image: url('../images/dog-collector-1.png');
+    background-size: cover;
   }
-  
+  #dogcollector-back {
+    background-color:  #2e9cc1;
+    color: white;
+    border: 1px solid #2e9cc1;
+  }
   
   
   /* footer section */
