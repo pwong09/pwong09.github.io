@@ -139,6 +139,26 @@ nav > div {
   color: white;
   border: 1px solid #2e9cc1;
 }
+#animebutler-front {
+  background-image: url('../images/animebutler.png');
+  background-size: cover;
+}
+#animebutler-back {
+  background-color: rgb(158, 220, 218);
+  border: 1px solid rgb(158, 220, 218);
+  color: black;
+}
+#animebutler-back > a {
+  color: var(--color-two)
+}
+#cfridges-front {
+  background-image: url('../images/cfridges.png');
+  background-size: cover;
+}
+#cfridges-back {
+  background-color: black;
+  border: 1px solid black;
+}
 /* footer section */
 footer {
   padding: 15px;
