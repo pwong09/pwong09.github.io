@@ -1,9 +1,10 @@
 import React from "react";
+import Sidebar from "../Sidebar/Sidebar"
 
 export default function Layout() {
     return (
-        <h1>
-            Home Layout
-        </h1>
+        <>
+            <Sidebar />
+        </>
     )
 }
