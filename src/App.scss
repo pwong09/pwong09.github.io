@@ -1,7 +1,15 @@
-* {
-  font-family: Helvetica, sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+@import 'animate.css';
 
+.container {
+  width: 100%;
+  will-change: contents;
+  height: 100vh;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  margin: 0 auto;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
+}

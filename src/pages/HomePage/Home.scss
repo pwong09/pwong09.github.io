@@ -1,0 +1,33 @@
+.home-page {
+    .header-container {
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        transform: translateY(-50%);
+        width: 100%;
+        max-height: 90%;
+        color: #fff;
+    }
+    h2 {
+        font-size: 53px;
+        color:#97D2FB;
+        letter-spacing: 3px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    h1 {
+        font-size: 53px;
+        margin: 0 auto;
+        width: 100%;
+        letter-spacing: 3px;
+        color: #fff;
+        padding: 0;
+    }
+    h3 {
+        letter-spacing: 3px;
+        color: #E9D2E3;
+        font-size: 28px;
+        padding: 0;
+        margin: 0 auto;
+    }
+}
