@@ -4,6 +4,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 export default function Footer() {
     return (
+        <footer>
         <div className='footer-container'>
             <section className='social-media'>
                 <div className='social-media-wrap'>
@@ -29,5 +30,6 @@ export default function Footer() {
                 </div>
             </section>
         </div>
+        </footer>
     );
 }
