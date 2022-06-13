@@ -55,7 +55,7 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 50%;
+        top: 30%;
         transform: translateY(-50%);
         width: 35%;
         vertical-align: middle;
@@ -67,6 +67,18 @@
     .text-animate-hover {
         &:hover {
             color: #FDB833;
+        }
+    }
+    @media screen and (max-width: 820px) {
+        .about-page {
+            height: 100%;
+            overflow-x: hidden;
+        }
+        .text-zone {
+            top: 29%;
+            width: 80%;
+            left: 5%;
+            height: 50%;
         }
     }
 }
