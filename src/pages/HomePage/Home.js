@@ -8,6 +8,7 @@ export default function Home() {
   const [letterClass, setLetterClass] = useState('text-animate');
   const nameArray = ['I','\'','m',' ','P','e','a','r','l',' ','W','o','n','g'];
   const pronounsArray = [' ','t',' h ','e','y',' ','/',' ','t','h','e','m']
+  const jobArray = [' ','F','u','l','l','-','S','t','a','c','k',' ','D','e','v','e','l','o','p','e','r']
 
   useEffect(() => {
     setTimeout(() => {
@@ -32,6 +33,13 @@ export default function Home() {
           <AnimateLetters 
             letterClass={letterClass}
             strArray={pronounsArray}
+            idx={15}
+          />
+          </h3>
+          <h3>I am a 
+          <AnimateLetters
+            letterClass={letterClass}
+            strArray={jobArray}
             idx={15}
           />
           </h3>
