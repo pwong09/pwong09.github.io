@@ -16,7 +16,7 @@
 
 .container.contact-page,
 .container.about-page {
-    .about-page {
+    .about-page, .contact-page {
         position: absolute;
         top: 15%;
         left: 20%;
@@ -24,7 +24,7 @@
         width: 100%;
         height: 100%;
     }
-
+    
     h1 {
         font-size: 53px;
         color: #C6EBBE;
@@ -55,7 +55,7 @@
     .text-zone {
         position: absolute;
         left: 10%;
-        top: 32%;
+        top: 50%;
         transform: translateY(-50%);
         width: 35%;
         vertical-align: middle;
