@@ -71,16 +71,3 @@
     background-color: #fff;
     color: black;
 }
-
-
-@media screen and (max-width: 798px) {
-    .flip-card {
-        width: 250px;
-        height: 250px;
-        margin: 9px auto;
-        border-radius: 9px;
-    }
-    .flip-card-back {
-        border-radius: 9px;
-    }
-}
