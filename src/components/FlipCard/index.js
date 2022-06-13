@@ -13,9 +13,9 @@ function FlipCard({
 
     return (
         <>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front" id={`${projectName}-front`}>
+            <div className="flip-card">
+                <div className="flip-card-inner">
+                    <div className="flip-card-front" id={`${projectName}-front`}>
                         <img src={img} alt={projectName} 
                         style={{ 
                             width: '100%', 
@@ -25,7 +25,7 @@ function FlipCard({
                             maxHeight: '360px'
                         }}/>
                     </div>
-                    <div class="flip-card-back" id={`${projectName}-back`}>
+                    <div className="flip-card-back" id={`${projectName}-back`}>
                         <h3>{title}</h3>
                         <p>{description}</p>
                         <a className="project-link" href={projectLink} target="_blank" rel="noreferrer">
