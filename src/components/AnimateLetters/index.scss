@@ -12,12 +12,12 @@
     animation-fill-mode: both;
 
     &:hover {
-        animation: rubberBand 1s;
+        animation: jello 2s;
         color: #FDB833;
     }
 }
 
-@for $i from 1 through 35 {
+@for $i from 1 through 89 {
     .text-animate._#{$i} {
         animation-delay: #{$i / 10}s;
     }

@@ -61,8 +61,9 @@ nav {
 }
 
 .nav-item:hover, .nav-logo:hover {
-    background-color: #fff;
+
     border-radius: 15px;
+    width: auto;
 }
 
 .nav-links {
@@ -70,9 +71,9 @@ nav {
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.5rem 1rem;
     height: 100%;
     vertical-align: middle;
+    padding: 0 20px;
 }
 
 @media screen and (max-width: 960px) {
@@ -81,32 +82,32 @@ nav {
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 90vh;
+        height: 50vh;
         position: absolute;
         top: 80px;
-        left: -100%;
+        right: -100%;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all 0.5s ease-out;
         justify-content: center;
     }
     .nav-menu.active {
-        background: #000;
-        left: auto;
+        background: #97D2FB;
+        right: 0;
         opacity: 1;
-        transition: all 0.6s ease;
+        transition: all 0.6s ease-in;
         z-index: 1;
+        top: 80px;
+        height: 50vh;
     }
     .nav-links {
         text-align: center;
-        padding: 2rem;
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
     }
     .nav-links:hover {
-        color: #000;
-        transform: scale(1.2);
+        transform: scale(1.05);
         transition: all 0.3s ease;
     }
     .nav-item:hover {
@@ -114,7 +115,6 @@ nav {
     }
     .nav-item {
         width: 100%;
-        padding: 0;
     }
     .nav-logo {
         position: absolute;

@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
 
-export default function Sidebar() {
+export default function Navbar() {
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
@@ -12,7 +12,7 @@ export default function Sidebar() {
 
 
     return (
-        <IconContext.Provider value={{ color: '#fff'}}>
+        <IconContext.Provider value={{ color: '#000'}}>
             <div className="nav-bar">
                 <nav className="nav-container">
                     <Link className="nav-logo" to="/">PW</Link>
