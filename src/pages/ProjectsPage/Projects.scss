@@ -6,9 +6,11 @@
     grid-row-gap: 0px; 
     grid-auto-flow: dense;
     align-items: center;
-    overflow: scroll;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
     height: 100%;
     width: 100%;
+    margin-bottom: 50px;
 
     .text-zone {
         transform: rotate(-90deg);

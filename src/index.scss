@@ -11,8 +11,7 @@ body {
     font-family: Helvetica, sans-serif;
     color: #fff;
     background-color: #053225;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     -webkit-font-smoothing: antialiased;
