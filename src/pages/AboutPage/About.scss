@@ -76,36 +76,39 @@
 
 @media screen and (max-width: 820px) {
     .stage-cube-cont {
-        top: 50%;
-        margin-top: 29px;
-        width: 75%;
-        left: 9%;
+        top: 60%;
+        width: 90%;
+        left: 0;
+        padding-top: 0;
+        margin: 0 auto;
+        height: 30vh;
     }
     .cubespinner  {
-        margin-left: calc(50% - 50px);
+        margin-left: calc(90% - 180px);
+        transform-origin: 0 0 100px;
         div {
-            width: 100px;
-            height: 100px;
-            font-size: 80px;
+            width: 80px;
+            height: 80px;
+            font-size: 70px;
             border-radius: 9px;
         }
         .face1 {
-            transform: translateZ(50px);
+            transform: translateZ(40px);
         }
         .face2 {
-            transform: rotateY(90deg) translateZ(50px);
+            transform: rotateY(90deg) translateZ(40px);
         }
         .face3 {
-            transform: rotateY(90deg) rotateX(90deg) translateZ(50px);
+            transform: rotateY(90deg) rotateX(90deg) translateZ(40px);
         }
         .face4 {
-            transform: rotateY(180deg) rotateZ(90deg) translateZ(50px);
+            transform: rotateY(180deg) rotateZ(90deg) translateZ(40px);
         }
         .face5 {
-            transform: rotateY(-90deg) rotateZ(90deg) translateZ(50px);
+            transform: rotateY(-90deg) rotateZ(90deg) translateZ(40px);
         }
         .face6 {
-            transform: rotateX(-90deg) translateZ(50px);
+            transform: rotateX(-90deg) translateZ(40px);
         }
     }
 

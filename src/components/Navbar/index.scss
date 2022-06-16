@@ -42,7 +42,7 @@ nav {
         height: auto;
 
         &:hover {
-            transform: scale(1.2);
+            transform: scale(1.1);
         }
     }
 }
@@ -130,6 +130,7 @@ nav {
         position: absolute;
         left: 0;
         transform: translate(25%, 50%);
+        top: -9%;
     }
     .menu-icon {
         display: block;

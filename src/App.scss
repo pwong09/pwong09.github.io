@@ -18,7 +18,8 @@
 }
 
 .container.contact-page,
-.container.about-page {
+.container.about-page, 
+.container.home-page {
     margin-top: 10%; 
     
     .about-page, .contact-page {
@@ -74,16 +75,33 @@
             color: #FDB833;
         }
     }
-    @media screen and (max-width: 820px) {
+}
+
+@media screen and (max-width: 820px) {
+    .container.contact-page,
+    .container.about-page {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+
         .about-page {
             height: 100%;
             overflow-x: hidden;
         }
+
         .text-zone {
-            top: 29%;
-            width: 80%;
-            left: 5%;
-            height: 50%;
+            width: 90%;
+            left: 0;
+            margin: 0 auto;
+
         }
+
+    }
+    
+}
+@media screen and (max-width: 820px) {
+    .container.contact-page {
+        margin-top: 30%;
+        width: 90%;
     }
 }
