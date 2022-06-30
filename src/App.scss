@@ -1,7 +1,8 @@
 @import 'animate.css';
 
 .App {
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .container {
     width: 100%;
