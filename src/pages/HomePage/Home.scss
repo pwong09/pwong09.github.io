@@ -34,11 +34,19 @@
 }
 @media screen and (max-width: 800px) {
     .home-page {
+        display: flex;
+
         .header-container {
-            overflow-wrap: break-word;
+
             width: 75%;          
-            margin: 0 auto;
+            margin: 0 1rem;
             top: 50%;
+            left: 0;
+        }
+        h3 {
+            width: 100%;
+            margin: 0;
+            font-size: 20px;
         }
     }
 
