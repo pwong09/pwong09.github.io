@@ -6,7 +6,7 @@
     grid-row-gap: 0px; 
     grid-auto-flow: dense;
     align-items: center;
-    overflow-y: scroll;
+    overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     height: 100%;
     width: 100%;
@@ -40,7 +40,7 @@
         display: flex;
         flex-direction: column;
         margin: 0;
-        width: 100%;
+        height: 100% + 1px;
 
     .text-zone {
         transform: rotate(0deg);
