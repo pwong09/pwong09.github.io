@@ -13,7 +13,7 @@ export default function Navbar() {
 
 
     return (
-        <IconContext.Provider value={{ color: '#000'}}>
+        <IconContext.Provider value={{ color: '#FDB833'}}>
             <div className="nav-bar">
                 <nav className="nav-container">
                     <Link className="nav-logo" to="/"><img src={Logo} alt="logo"/></Link>
