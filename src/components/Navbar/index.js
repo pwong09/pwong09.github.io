@@ -1,7 +1,7 @@
 import "./index.scss";
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa"
+import { FaBars, FaTimes, FaHome } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
 import Logo from "../../assets/logo/logo.png"
 
@@ -16,7 +16,7 @@ export default function Navbar() {
         <IconContext.Provider value={{ color: '#FDB833'}}>
             <div className="nav-bar">
                 <nav className="nav-container">
-                    <Link className="nav-logo" to="/"><img src={Logo} alt="logo"/></Link>
+                    <Link className="nav-logo" to="/"><FaHome /></Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
                     </div>

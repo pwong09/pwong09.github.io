@@ -36,24 +36,16 @@ nav {
     align-items: center;
     border-bottom: 2px solid transparent;
     vertical-align: middle;
-    font-weight: 700;
-    img {
-        width: 50px;
-        height: auto;
-
-        &:hover {
-            transform: scale(1.1);
-        }
-    }
+    font-size: 1.8rem;
+    
 }
 
 .nav-menu {
     display: flex;
     align-items: center;
-    justify-content: center;
     list-style: none;
     text-align: center;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .menu-icon {
     display: none;
@@ -64,6 +56,7 @@ nav {
     border-bottom: 2px solid transparent;
     text-decoration: none;
     list-style: none;
+    margin: 0 9px;
 }
 
 .nav-links {
@@ -126,8 +119,8 @@ nav {
     .nav-logo {
         position: absolute;
         left: 0;
-        transform: translate(25%, 50%);
-        top: -9%;
+        transform: translate(70%, 65%);
+        font-size: 1.8rem;
     }
     .menu-icon {
         display: block;
