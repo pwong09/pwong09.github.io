@@ -47,8 +47,8 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am interested in building new or existing products that help people and their communities. 
-                        Feel free to reach out if you have a project or idea you want to chat about!
+                        I am interested in building web and mobile apps that help people and their communities. 
+                        Feel free to reach out if you want to chat!
                     </p>
                     <div className="contact-form">
                         <form ref={refForm} onSubmit={sendEmail}>
