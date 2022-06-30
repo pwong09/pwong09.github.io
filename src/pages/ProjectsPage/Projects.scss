@@ -47,5 +47,9 @@
         margin: 0 1rem;
         width: 95%;
     }
+    .project-cards {
+        display: flex;
+        flex-direction: column;
+    }
     }
 }
