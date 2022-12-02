@@ -30,6 +30,12 @@ function Projects() {
                     </h1>
                 </div>
                 <div className="project-cards">
+                    <p>Hello! Thank you for making it this far in my website!
+                        Due to Heroku's recent billing changes, I am in the process of
+                        moving my apps to a different hosting site.
+                        In the meantime, please review the README files for each project for
+                        my thought process and screenshots. Thank you for your patience!
+                    </p>
                     {/* <h3>Community Fridges</h3>
                     <p>A full-stack CRUD web app built with Express, JavaScript, MongoDB/Mongoose, Node, React, Semantic-UI, Google Maps API and Geolocation API.</p>
                     <a className="project-link" href="https://cfridges.herokuapp.com" target="_blank" rel="noreferrer">Fridges</a>
@@ -42,7 +48,7 @@ function Projects() {
                         projectName={'Minesweeper'}
                         title={'Minesweeper'}
                         description={'A revamped version of the classic logic-based puzzle using HTML5, CSS3, and JavaScript.'}
-                        projectLink={'https://pwong09.github.io/minesweeper'}
+                        // projectLink={'https://pwong09.github.io/minesweeper'}
                         githubLink={'https://github.com/pwong09/minesweeper'}
                         img={minesweeper}
                     />                    

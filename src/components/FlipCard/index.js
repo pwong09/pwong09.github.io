@@ -28,9 +28,9 @@ function FlipCard({
                     <div className="flip-card-back" id={`${projectName}-back`}>
                         <h3>{title}</h3>
                         <p>{description}</p>
-                        <a className="project-link" href={projectLink} target="_blank" rel="noreferrer">
+                        {/* <a className="project-link" href={projectLink} target="_blank" rel="noreferrer">
                             {projectName}
-                        </a>
+                        </a> */}
                         <br />
                         <a className="github-link" href={githubLink} target="_blank" rel="noreferrer">
                             <FaGithub />
