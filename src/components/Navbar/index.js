@@ -15,7 +15,7 @@ export default function Navbar() {
         <IconContext.Provider value={{ color: '#FDB833'}}>
             <div className="nav-bar">
                 <nav className="nav-container">
-                    <Link to="/">
+                    <Link to="/" className="menu-icon-home">
                       <button className="nav-logo"><FaHome /></button>
                     </Link>
                     <button className="menu-icon" onClick={handleClick}>
