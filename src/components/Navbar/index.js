@@ -3,7 +3,6 @@ import React, {useState} from "react";
 import {Link} from "react-router-dom";
 import { FaBars, FaTimes, FaHome } from "react-icons/fa"
 import { IconContext } from "react-icons/lib"
-import Logo from "../../assets/logo/logo.png"
 
 export default function Navbar() {
     const [click, setClick] = useState(false);
@@ -16,20 +15,22 @@ export default function Navbar() {
         <IconContext.Provider value={{ color: '#FDB833'}}>
             <div className="nav-bar">
                 <nav className="nav-container">
-                    <Link className="nav-logo" to="/"><FaHome /></Link>
-                    <div className="menu-icon" onClick={handleClick}>
+                    <Link to="/">
+                      <button className="nav-logo"><FaHome /></button>
+                    </Link>
+                    <button className="menu-icon" onClick={handleClick}>
                         {click ? <FaTimes /> : <FaBars />}
-                    </div>
+                    </button>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                        <li className="nav-item">
-                            <Link to="/about" className="nav-links" onClick={closeMobileMenu}>ABOUT</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>PROJECTS</Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/contact" className="nav-links" onClick={closeMobileMenu}>CONTACT</Link>
-                        </li>
+                        <Link to="/about" className="nav-item nav-links" onClick={closeMobileMenu}>
+                          <button className="nav-button">ABOUT</button>
+                        </Link>
+                        <Link to="/projects" className="nav-item nav-links" onClick={closeMobileMenu}>
+                          <button className="nav-button">PROJECTS</button>
+                        </Link>
+                        <Link to="/contact" className="nav-item nav-links" onClick={closeMobileMenu}>
+                          <button className="nav-button">CONTACT</button>
+                        </Link>
                     </ul>
                 </nav>
             </div>
