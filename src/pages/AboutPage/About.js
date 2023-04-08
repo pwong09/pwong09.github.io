@@ -53,7 +53,7 @@ function About() {
               <FaReact color="#5ED4F4" />
             </div>
             <div className="face5">
-              <SiJavascript color="#EFD81D" />
+              <SiJavascript aria-hidden="true" color="#EFD81D" />
             </div>
             <div className="face6">
               <FaGithubSquare color="#EC4D28" />

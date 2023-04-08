@@ -62,6 +62,14 @@
     font-family: Helvetica;
   }
 
+  input[type=text],
+  input[type=email],
+  textarea {
+    &:focus {
+      background-color: #e9d2e3;
+    }
+  }
+
   .flat-button {
     input {
       background-color: transparent;
@@ -69,20 +77,19 @@
     }
 
     color: #000;
-    background-color: #FDB833;
+    background-color: #C6EBBE;
     font: 11px;
     letter-spacing: 3px;
     text-decoration: none;
     padding: 8px 10px;
-    border: solid 1px #FDB833;
+    border: solid 1px #C6EBBE;
     float: right;
     border-radius: 3px;
     cursor: pointer;
 
     &:hover, &:focus {
-      background: #fff;
-      border: solid 1px #fff;
-      color: #000;
+      background-color: #FDB833;
+      border: solid 1px #FDB833;
       outline-offset: 3px;
     }
   }
