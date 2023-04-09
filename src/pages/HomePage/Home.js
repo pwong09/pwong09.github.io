@@ -1,7 +1,6 @@
 import './Home.scss';
 import React, {useState, useEffect} from 'react';
 import AnimateLetters from '../../components/AnimateLetters';
-import particlesConfig from '../../config/particlesConfig';
 import Particle from '../../components/Particle';
 
 export default function Home() {
@@ -18,17 +17,17 @@ export default function Home() {
 
   return (
     <>
-      <div className="container home-page">
+      <div className="container home-page" tabIndex="-1">
         <Particle />
         <div className="header-container">
-            <h2>Hi,</h2>
-            <h1 className="my-name">
+          <h1>Hi,</h1>
+          <h2 className="my-name">
             <AnimateLetters 
               letterClass={letterClass}
               strArray={nameArray} 
               idx={15}
             />
-          </h1>
+          </h2>
           <h3>
             <AnimateLetters
               letterClass={letterClass}
