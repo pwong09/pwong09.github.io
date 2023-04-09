@@ -19,7 +19,7 @@ export default function Footer() {
                 <button aria-label="Github" className='social-icon-link'><FaGithub /></button>
               </a>
               <a
-                href='https://www.linkedin.com/in/pwong09'
+                href='https://www.linkedin.com/in/pearl-wong'
                 rel="noreferrer"
                 target='_blank'
                 tabindex="-1"
