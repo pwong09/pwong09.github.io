@@ -10,7 +10,6 @@ export default function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-
   return (
     <IconContext.Provider value={{ color: '#FDB833' }}>
       <div className="nav-bar">
@@ -27,9 +26,6 @@ export default function Navbar() {
             </Link>
             <Link to="/projects" className="nav-item nav-links" onClick={closeMobileMenu} tabIndex={-1}>
               <button className="nav-button">PROJECTS</button>
-            </Link>
-            <Link to="/contact" className="nav-item nav-links" onClick={closeMobileMenu} tabIndex={-1}>
-              <button className="nav-button">CONTACT</button>
             </Link>
           </div>
         </nav>

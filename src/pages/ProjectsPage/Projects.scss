@@ -8,6 +8,7 @@
   grid-auto-flow: dense;
   height: 100%;
   margin-bottom: 50px;
+  overflow: auto;
   -webkit-overflow-scrolling: touch;
   width: 100%;
 
@@ -32,7 +33,12 @@
     grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     height: 100%;
     justify-items: center;
+    min-height: fit-content;
     width: 100%;
+
+    .project-intro {
+      padding: 18px;
+    }
   }
 }
 

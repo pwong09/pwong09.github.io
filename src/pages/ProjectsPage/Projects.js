@@ -30,25 +30,19 @@ function Projects() {
           </h1>
         </div>
         <div className="project-cards">
-          <p>Hello! Thank you for making it this far in my website!
-            Due to Heroku's recent billing changes, I am in the process of
-            moving my apps to a different hosting site.
-            In the meantime, please review the README files for each project for
-            my thought process and screenshots. Thank you for your patience!
-          </p>
-          {/* <h3>Community Fridges</h3>
-                    <p>A full-stack CRUD web app built with Express, JavaScript, MongoDB/Mongoose, Node, React, Semantic-UI, Google Maps API and Geolocation API.</p>
-                    <a className="project-link" href="https://cfridges.herokuapp.com" target="_blank" rel="noreferrer">Fridges</a>
-                    <br />
-                    <a className="project-github" href="https://github.com/pwong09/community-fridges" target="_blank" rel="noreferrer">
-                        <FaGithub />
-                    </a>
-                </div> */}
+          <div className="project-intro">
+            <p>Hello! Thank you for making it this far in my website!
+              The projects here were originally coded in 2022 and hosted on Heroku. 
+              However, due to the pricing changes, they are no longer available.
+              Please review the README files for each project for
+              my thought process and screenshots. Thank you for your patience!
+            </p>
+          </div>
           <FlipCard
             projectName={'Minesweeper'}
             title={'Minesweeper'}
             description={'A revamped version of the classic logic-based puzzle using HTML5, CSS3, and JavaScript.'}
-            // projectLink={'https://pwong09.github.io/minesweeper'}
+            projectLink={'https://pwong09.github.io/minesweeper'}
             githubLink={'https://github.com/pwong09/minesweeper'}
             img={minesweeper}
           />
@@ -56,7 +50,6 @@ function Projects() {
             projectName={'AnimeButler'}
             title={'AnimeButler'}
             description={'A collaboratively built full-stack CRUD web app built with CSS, Django, PostgreSQL, Python and the Jikan API to browse and add anime you\'re interested in watching!'}
-            projectLink={'https://animebutler.herokuapp.com'}
             githubLink={'https://github.com/eightdurty1/animebutler'}
             img={animebutler}
           />
@@ -64,7 +57,6 @@ function Projects() {
             projectName={'Kanshu'}
             title={'Kanshu - Books Tracking'}
             description={'A full-stack CRUD web app with RESTful routes - utilizing Google Books API and built with Express on Node.js, Bootstrap CSS, JavaScript/EJS, and MongoDB/mongoose to track and store books you\'ve read.'}
-            projectLink={'https://kanshu.herokuapp.com'}
             githubLink={'https://github.com/pwong09/books-tracker-app'}
             img={kanshu}
           />
@@ -72,7 +64,6 @@ function Projects() {
             projectName={'Fridges'}
             title={'Community Fridges'}
             description={'A full-stack CRUD web app built with Express, JavaScript, MongoDB/Mongoose, Node, React, Semantic-UI, Google Maps API and Geolocation API.'}
-            projectLink={'https://cfridges.herokuapp.com'}
             githubLink={'https://github.com/pwong09/community-fridges'}
             img={fridges}
           />
